@@ -9,7 +9,6 @@
             padding: 20px;
             box-sizing: border-box;
             font-size: 70px;
-            text-align: right;
         }
 
         .gallery {
@@ -84,26 +83,26 @@
             }
         }
 
-
         .like::before{
-    color: rgb(27, 214, 27);
-    cursor: pointer;
-    display: none;
-}
-
-.dislike::before{
-    color: rgb(247, 44, 44);
-    cursor: pointer;
-    display: none;
-}
-
-.active::before{
-    display: inline-block;
-}
-
-i{
-    width: 5%;
-    margin: auto;
-    position: absolute;
-}
+            color: rgb(27, 214, 27);
+            cursor: pointer;
+            display: none;
+                }
+                
+        .dislike::before{
+            color: rgb(247, 44, 44);
+            cursor: pointer;
+            display: none;
+        }
+        
+        .active::before{
+            display: inline-block;
+        }
+        
+        i{
+            width: 5%;
+            margin: auto;
+            position: absolute;
+            bottom: 10px;
+         }
 
