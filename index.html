@@ -4,8 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>گالری تصاویر با لایت‌باکس</title>
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/fontawesome.css">
     <link rel="stylesheet" href="style.css">
-
+     <script src="jquery.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("i").click(function(){
+                $(this).removeClass("active").siblings().addClass("active")
+            })
+        })
+    </script>
 </head>
 <body>
     <div class="gallery">
@@ -16,6 +25,11 @@
     </div>
 
     <div class="lightbox-overlay" id="lightbox"></div>
+
+
+        <i class="fas fa-thumbs-up like"></i>
+    <i class="fas fa-thumbs-down dislike active"></i>
+
 
         <script src="script.js"></script>
 </body>
